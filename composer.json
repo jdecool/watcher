@@ -1,0 +1,27 @@
+{
+    "name": "jdecool/watcher",
+    "description": "Watch changes",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jérémy DECOOL",
+            "email": "contact@jdecool.fr"
+        }
+    ],
+    "require": {
+        "php": "^7.2.0",
+        "m4tthumphrey/php-gitlab-api": "^9.10",
+        "php-http/guzzle6-adapter": "^1.1",
+        "symfony/console": "^4.1",
+        "symfony/event-dispatcher": "^4.1",
+        "symfony/yaml": "^4.1",
+        "symfony/config": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "JDecool\\Watcher\\": "src/"
+        }
+    },
+    "bin": ["bin/watcher"]
+}
